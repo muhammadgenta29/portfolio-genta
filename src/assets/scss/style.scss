@@ -1,0 +1,149 @@
+// Asset imports
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import "~bootstrap/scss/bootstrap";
+@import "../fonts/fonts.scss";
+
+// Variable initializations
+$bg: #121212;
+$hero-bg: #0f1724;
+$cyan-txt: #04c4c4;
+$white-txt: #ddebff;
+$lblue-txt: #92abcf;
+$card-bg: #101b2c;
+
+// Essential tag styles
+body {
+  background-color: $bg;
+  font-family: "Comfortaa";
+  color: $white-txt;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+a:hover {
+  color: inherit;
+}
+
+// Text selection styles
+*::selection {
+  color: $hero-bg;
+  background: $cyan-txt;
+}
+
+// Custom scrollbar styles
+::-webkit-scrollbar {
+  background-color: $hero-bg;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $cyan-txt;
+  border-radius: 20px;
+}
+
+// Id styles
+#hero {
+  background-color: $hero-bg;
+}
+
+// Class styles
+.custom-nav-md {
+  background-color: $hero-bg;
+  height: 4rem;
+  border-radius: 0 0 2rem 2rem;
+  color: $cyan-txt;
+  -webkit-box-shadow: 0px 54px 102px 25px rgba(18, 18, 18, 0.67);
+  -moz-box-shadow: 0px 54px 102px 25px rgba(18, 18, 18, 0.67);
+  box-shadow: 0px 54px 102px 25px rgba(18, 18, 18, 0.67);
+}
+
+.custom-nav {
+  background-color: $hero-bg;
+  height: 4rem;
+  border-radius: 2rem 2rem 0 0;
+  color: $cyan-txt;
+  -webkit-box-shadow: 0px 54px 102px 25px rgba(18, 18, 18, 0.67);
+  -moz-box-shadow: 0px 54px 102px 25px rgba(18, 18, 18, 0.67);
+  box-shadow: 0px 54px 102px 25px rgba(18, 18, 18, 0.67);
+}
+
+.cyan-txt {
+  color: $cyan-txt;
+}
+
+.lblue-txt {
+  color: $lblue-txt;
+}
+
+.lblue-bg {
+  background-color: $lblue-txt;
+}
+
+.img-card {
+  width: 10rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.img-shield {
+  width: 5rem;
+}
+
+.timeline {
+  border-left: 2px solid $lblue-txt;
+}
+
+.btn-lblue {
+  background-color: $lblue-txt;
+}
+
+.white-txt {
+  color: $white-txt;
+}
+
+.proj-card {
+  // max-width: 40rem;
+  height: max-content;
+  // min-height: 15rem;
+  // border-radius: 40px;
+  background-color: $card-bg;
+  padding: 0;
+}
+
+.h-project {
+  height: 30rem;
+  object-fit: cover;
+}
+
+.imgProject {
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.cyan-bg {
+  background-color: $cyan-txt;
+}
+
+.black-txt {
+  color: $hero-bg;
+}
+
+.custom-fireicon {
+  max-width: 10rem;
+}
+
+.social-icon {
+  border: 1px solid $cyan-txt;
+}
+
+.hero-br {
+  border: 1px solid #1f3252;
+}
