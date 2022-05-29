@@ -124,7 +124,7 @@ export default function Work() {
             </section>
             <section
                 id="projects"
-                className="d-flex justify-content-center align-items-center">
+                className="d-flex justify-content-center align-items-center pb-5 mb-5">
                 <div className="w-100 container-fluid px-0">
                     <h3 className="cyan-txt my-5 pt-5 text-center fw-bold">Achievement</h3>
                     <div className="d-flex flex-md-row flex-column justify-content-around align-items-center">
